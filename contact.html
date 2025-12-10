@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Laxmi Narasimha Talluri</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand">
+        <div class="brand-mark">LT</div>
+        <div class="brand-text">
+          <span>ELECTRONICS & COMMUNICATION</span>
+          <span>Laxmi Narasimha Talluri</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-header">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">
+            For internship opportunities, collaborations, or professional enquiries, feel free to reach out.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Professional Details</h3>
+            <ul class="list-compact">
+              <li>Email: <a href="mailto:narasimhachowdary501@gmail.com">narasimhachowdary501@gmail.com</a></li>
+              <li>Phone: <a href="tel:+917893229688">+91-7893229688</a></li>
+              <li>Location: Hyderabad, India</li>
+              <li>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/t-laxmi-narsimha/" target="_blank" rel="noreferrer">
+                  linkedin.com/in/t-laxmi-narsimha
+                </a>
+              </li>
+              <li>
+                GitHub:
+                <a href="https://github.com/Laxmi-Narsimha5456" target="_blank" rel="noreferrer">
+                  github.com/Laxmi-Narsimha5456
+                </a>
+              </li>
+            </ul>
+            <p class="body-text" style="margin-top:8px;">
+              I typically respond to relevant professional messages within a reasonable timeframe and am open to
+              discussing roles in AI/ML, embedded systems, IoT, and related areas.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Send a message</h3>
+            <p class="body-text">
+              This is a static form for portfolio purposes. You can adapt it and connect it to your preferred
+              back-end or form service.
+            </p>
+            <form class="contact-form" onsubmit="return false;">
+              <label>
+                Full Name
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="your.email@example.com" required />
+              </label>
+              <label>
+                Subject
+                <input type="text" name="subject" placeholder="Reason for contacting" required />
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="4" placeholder="Write your message here..." required></textarea>
+              </label>
+              <button type="submit" class="btn-primary" style="border:none;">
+                Submit (demo only)
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Laxmi Narasimha Talluri</span>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/t-laxmi-narsimha/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/Laxmi-Narsimha5456" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
